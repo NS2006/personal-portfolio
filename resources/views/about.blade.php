@@ -5,20 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me | My Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset("css/index.css") }}">
-
-    <link rel="stylesheet" href="{{ asset("css/about.css") }}">
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/about.css') }}">
 </head>
 <body>
     <header>
-        <h3>My Website</h3>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-        </nav>
+        <h3>Personal Portfolio Website</h3>
         <h3>Welcome, Guest</h3>
     </header>
 
@@ -30,7 +23,7 @@
 
         <section class="profile">
             <div class="profile-img">
-                <img src="{{asset("assets/me.jpg")}}" alt="Profile Picture">
+                <img src="{{ asset('assets/me.jpg') }}" alt="Profile Picture">
             </div>
             <div class="profile-info">
                 <h2>Niko Sutiono</h2>
@@ -48,86 +41,63 @@
                 My Study Experience at BINUS University
             </h2>
             <div class="timeline">
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/undergraduate-student') }}">
                     <div class="timeline-content">
-                        <span class="date">
-                            2023 - Present
-                        </span>
-                        <h3>
-                            Undergraduate Student
-                        </h3>
+                        <span class="date">2023 - Present</span>
+                        <h3>Undergraduate Student</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
 
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/mentor') }}">
                     <div class="timeline-content">
-                        <span class="date">
-                            Aug 2025 - Present
-                        </span>
+                        <span class="date">Aug 2025 - Present</span>
                         <h3>Mentor</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
 
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/part-time-laboratory-assistant') }}">
                     <div class="timeline-content">
-                        <span class="date">
-                            Feb 2025 - Present
-                        </span>
+                        <span class="date">Feb 2025 - Present</span>
                         <h3>Part-time Laboratory Assistant</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
 
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/staff-at-kmbd') }}">
                     <div class="timeline-content">
-                            <span class="date">
-                                Feb 2024 - Present
-                            </span>
-                            <h3>
-                                Manager at KMBD
-                            </h3>
+                        <span class="date">Feb 2024 - Present</span>
+                        <h3>Staff at KMBD</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
 
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/activist-at-himti') }}">
                     <div class="timeline-content">
-                            <span class="date">
-                                Feb 2023 - Present
-                            </span>
-                            <h3>
-                                Activist at HIMTI
-                            </h3>
+                        <span class="date">Feb 2023 - Present</span>
+                        <h3>Activist at HIMTI</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
 
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/activist-at-kmbd') }}">
                     <div class="timeline-content">
-                            <span class="date">
-                                Feb 2023 - Feb 2024
-                            </span>
-                            <h3>
-                                Activist at KMBD
-                            </h3>
+                        <span class="date">Feb 2023 - Feb 2024</span>
+                        <h3>Activist at KMBD</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
 
-                <div class="timeline-item animate delay-1">
+                <a class="timeline-item animate delay-1" href="{{ url('/about/freshmen') }}">
                     <div class="timeline-content">
-                            <span class="date">
-                                Sep 2023 - Sep 2024
-                            </span>
-                            <h3>
-                                Freshmen
-                            </h3>
+                        <span class="date">Sep 2023 - Sep 2024</span>
+                        <h3>Freshmen</h3>
                     </div>
                     <div class="timeline-dot"></div>
-                </div>
+                </a>
             </div>
+        </section>
 
         <section class="contact">
             <h2 class="section-title">Get In Touch</h2>
@@ -150,7 +120,5 @@
             </div>
         </section>
     </div>
-
-    <script src="js/about.js"></script>
 </body>
 </html>

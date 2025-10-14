@@ -43,21 +43,6 @@ header h3 {
     font-size: 1.5rem;
 }
 
-nav {
-    display: flex;
-    gap: 2rem;
-}
-
-nav a {
-    color: white;
+a{
     text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-}
-
-nav a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
 }

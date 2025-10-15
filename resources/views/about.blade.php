@@ -18,7 +18,7 @@
     <div class="container">
         <section class="hero animate">
             <h1>About Me</h1>
-            <p>Welcome to my website. This website is my submission for the "About Page Assignment". This page primarily contains my personal information.</p>
+            <p>Welcome to my website. This website is my Personal Portfolio Website, built using Laravel that showcases my personal information and study/work experience at BINUS University..</p>
         </section>
 
         <section class="profile">

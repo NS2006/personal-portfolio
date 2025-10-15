@@ -17,12 +17,12 @@ class AboutController extends Controller
             'mentor' => [
                 'title' => 'Mentor',
                 'period' => 'Aug 2025 - Present',
-                'description' => 'In my role as a mentor, I guide and support junior students in their academic journey. I conduct regular mentoring sessions where we discuss programming concepts, problem-solving strategies, and career development. This experience has helped me develop strong communication skills and the ability to explain complex technical concepts in an accessible way.'
+                'description' => 'In my role as a mentor, I guide and support junior students in their academic journey. I conduct regular mentoring sessions where we discuss programming concepts, problem-solving strategies, and career development depends on the mentee needs. This experience has helped me develop strong communication skills and the ability to explain complex technical concepts in an accessible way.'
             ],
             'part-time-laboratory-assistant' => [
                 'title' => 'Part-time Laboratory Assistant',
                 'period' => 'Feb 2025 - Present',
-                'description' => 'Working as a part-time laboratory assistant has given me hands-on experience in supporting academic activities. I assist students during lab sessions, help troubleshoot programming issues, maintain laboratory equipment, and support professors in conducting practical sessions. This role has enhanced my technical expertise and teaching abilities.'
+                'description' => 'Working as a part-time laboratory assistant has given me hands-on experience in supporting academic activities. I assist students during lab sessions, help troubleshoot programming issues, and support professors in conducting practical sessions. This role has enhanced my technical expertise and teaching abilities.'
             ],
             'staff-at-kmbd' => [
                 'title' => 'Staff at KMBD',

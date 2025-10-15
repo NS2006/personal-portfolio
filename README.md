@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This project is a **Personal Portfolio Website** built using **Laravel** that showcases my personal information and study/work experience at BINUS University. This website was created as a submission for the "About Page Assignment".
+This project is a **Personal Portfolio Website** built using **Laravel** that showcases my personal information and study/work experience at BINUS University.  
 
 ## ✨ Key Features
 
@@ -56,11 +56,11 @@ You need to have the following installed on your system:
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [YOUR_PROJECT_FOLDER_NAME]
-    ```
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/NS2006/personal-portfolio](https://github.com/NS2006/personal-portfolio)
+    cd personal-portfolio
+    ```
 
 2.  **Install PHP dependencies:**
     ```bash

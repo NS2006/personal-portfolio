@@ -18,19 +18,19 @@ This project is a **Personal Portfolio Website** built using **Laravel** that sh
 
 This is the main landing page, `about.html`, which serves as the central hub for my profile and timeline.
 
-![Preview of About Page](https://via.placeholder.com/800x450/4CAF50/FFFFFF?text=YOUR+ABOUT+PAGE+GIF+HERE)
+![Preview of About Page](gif/AboutPage.gif)
 
 ### Specific Timeline Page
 
 This is a preview of one of the dynamic specific timeline pages, such as the one for 'Part-time Laboratory Assistant'.
 
-![Preview of Specific Timeline Page](https://via.placeholder.com/800x450/2196F3/FFFFFF?text=YOUR+SPECIFIC+TIMELINE+GIF+HERE)
+![Preview of Specific Timeline Page](gif/Timeline.gif)
 
 ### Mobile View
 
 A look at how the website adapts for smaller screens (smartphone view).
 
-![Preview of Mobile View](https://via.placeholder.com/300x534/FF9800/FFFFFF?text=YOUR+MOBILE+VIEW+GIF+HERE)
+![Preview of Mobile View](gif/Mobile.gif)
 
 ---
 

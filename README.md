@@ -56,11 +56,11 @@ You need to have the following installed on your system:
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/NS2006/personal-portfolio](https://github.com/NS2006/personal-portfolio)
-    cd personal-portfolio
-    ```
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/NS2006/personal-portfolio
+    cd personal-portfolio
+    ```
 
 2.  **Install PHP dependencies:**
     ```bash
